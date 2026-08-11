@@ -1,0 +1,11 @@
+# Versions recorded on the original experiment server.
+# This file documents provenance; it is not a recommended fresh environment because
+# SciPy 1.7.3 warns that NumPy 1.24.4 is outside its supported range.
+Python==3.8.13
+torch==1.11.0
+numpy==1.24.4
+pandas==1.2.4
+scikit-learn==1.0.2
+scipy==1.7.3
+# matplotlib version was not recorded.
+
