@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+outputs/
+/results/raw_logs/
+/figures/source_data/probs/
+/figures/source_data/*.npz
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar.gz
+
