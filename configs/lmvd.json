@@ -1,0 +1,15 @@
+{
+  "task": "LMVD video-level binary classification",
+  "positive_class": "depression",
+  "visual_feature_dim": 136,
+  "audio_feature_dim": 128,
+  "hidden_size": 128,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "epochs": 45,
+  "early_stopping_patience": 12,
+  "seeds": [0, 1, 2, 42, 123],
+  "primary_metric": "depressed-class F1",
+  "summary_std": "sample standard deviation (ddof=1)"
+}

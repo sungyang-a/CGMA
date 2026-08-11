@@ -1,0 +1,14 @@
+{
+  "task": "IEMOCAP four-class emotion recognition transfer probe",
+  "text_feature_dim": 100,
+  "audio_feature_dim": 1582,
+  "visual_feature_dim": 342,
+  "hidden_size": 128,
+  "batch_size": 16,
+  "learning_rate": 0.0005,
+  "epochs": 60,
+  "early_stopping_patience": 12,
+  "seeds": [42, 1, 2, 3, 123],
+  "primary_metric": "weighted F1",
+  "summary_std": "sample standard deviation (ddof=1)"
+}
