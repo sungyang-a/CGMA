@@ -1,0 +1,92 @@
+table,method,condition,mean,std,metric,scale
+Table1,Naive fusion,intact,76.7,2.0,depressed-class F1,percent
+Table1,Naive fusion,dropV,29.9,26.2,depressed-class F1,percent
+Table1,Naive fusion,dropA,72.5,0.9,depressed-class F1,percent
+Table1,Naive fusion,frame_f50,25.4,3.8,depressed-class F1,percent
+Table1,Naive + Aug,intact,77.0,0.6,depressed-class F1,percent
+Table1,Naive + Aug,dropV,64.4,4.3,depressed-class F1,percent
+Table1,Naive + Aug,dropA,65.8,14.3,depressed-class F1,percent
+Table1,Naive + Aug,frame_f50,74.1,1.6,depressed-class F1,percent
+Table1,CGMA,intact,74.4,2.2,depressed-class F1,percent
+Table1,CGMA,dropV,67.6,1.2,depressed-class F1,percent
+Table1,CGMA,dropA,72.9,0.5,depressed-class F1,percent
+Table1,CGMA,frame_f50,74.6,1.7,depressed-class F1,percent
+Table2,CGMA,ratio_r0,74.7,,depressed-class F1,percent
+Table2,CGMA,ratio_r10,74.2,,depressed-class F1,percent
+Table2,CGMA,ratio_r25,73.0,,depressed-class F1,percent
+Table2,CGMA,ratio_r50,70.6,,depressed-class F1,percent
+Table2,CGMA,ratio_r75,70.0,,depressed-class F1,percent
+Table2,CGMA,ratio_r100,68.2,,depressed-class F1,percent
+Table2,MMIN core,ratio_r0,75.3,,depressed-class F1,percent
+Table2,MMIN core,ratio_r10,74.5,,depressed-class F1,percent
+Table2,MMIN core,ratio_r25,73.9,,depressed-class F1,percent
+Table2,MMIN core,ratio_r50,72.2,,depressed-class F1,percent
+Table2,MMIN core,ratio_r75,70.5,,depressed-class F1,percent
+Table2,MMIN core,ratio_r100,67.5,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r0,76.0,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r10,73.4,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r25,71.1,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r50,66.2,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r75,61.5,,depressed-class F1,percent
+Table2,Naive fusion,ratio_r100,57.4,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r0,77.4,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r10,76.8,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r25,74.1,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r50,70.0,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r75,69.5,,depressed-class F1,percent
+Table2,Naive + Aug,ratio_r100,65.2,,depressed-class F1,percent
+Table3,CGMA,frame_p0,74.4,2.2,depressed-class F1,percent
+Table3,CGMA,frame_p25,74.7,2.3,depressed-class F1,percent
+Table3,CGMA,frame_p50,74.6,1.7,depressed-class F1,percent
+Table3,CGMA,frame_p75,70.8,3.3,depressed-class F1,percent
+Table3,CGMA,frame_p90,69.3,2.8,depressed-class F1,percent
+Table3,CGMA,frame_p100,67.6,1.2,depressed-class F1,percent
+Table4,Zero fill,intact,75.8,1.1,depressed-class F1,percent
+Table4,Zero fill,dropV,59.9,6.3,depressed-class F1,percent
+Table4,Zero fill,dropA,72.3,0.6,depressed-class F1,percent
+Table4,Zero fill,frame_f50,23.9,17.0,depressed-class F1,percent
+Table4,Missing token,intact,76.5,1.2,depressed-class F1,percent
+Table4,Missing token,dropV,64.7,2.1,depressed-class F1,percent
+Table4,Missing token,dropA,71.4,1.6,depressed-class F1,percent
+Table4,Missing token,frame_f50,37.0,8.3,depressed-class F1,percent
+Table4,Autoencoder,intact,75.4,1.5,depressed-class F1,percent
+Table4,Autoencoder,dropV,62.1,10.7,depressed-class F1,percent
+Table4,Autoencoder,dropA,70.1,2.8,depressed-class F1,percent
+Table4,Autoencoder,frame_f50,38.7,11.7,depressed-class F1,percent
+Table4,MMIN core,intact,75.3,0.7,depressed-class F1,percent
+Table4,MMIN core,dropV,64.1,6.8,depressed-class F1,percent
+Table4,MMIN core,dropA,72.0,1.2,depressed-class F1,percent
+Table4,MMIN core,frame_f50,37.1,15.2,depressed-class F1,percent
+Table5,CGMA with proxy,intact,74.2,,depressed-class F1,percent
+Table5,CGMA with proxy,frame_f50,71.1,,depressed-class F1,percent
+Table5,CGMA with proxy,dropV,67.1,,depressed-class F1,percent
+Table5,CGMA,intact,74.4,2.2,depressed-class F1,percent
+Table5,CGMA,frame_f50,74.6,1.7,depressed-class F1,percent
+Table5,CGMA,dropV,67.6,1.2,depressed-class F1,percent
+Table5,Identity gate,intact,76.4,0.9,depressed-class F1,percent
+Table5,Identity gate,frame_f50,73.1,2.2,depressed-class F1,percent
+Table5,Identity gate,dropV,65.1,1.8,depressed-class F1,percent
+Table5,No completeness loss,intact,75.0,,depressed-class F1,percent
+Table5,No completeness loss,frame_f50,73.4,,depressed-class F1,percent
+Table5,No completeness loss,dropV,63.0,,depressed-class F1,percent
+Table5,No frame augmentation,intact,75.2,,depressed-class F1,percent
+Table5,No frame augmentation,frame_f50,16.3,,depressed-class F1,percent
+Table5,No frame augmentation,dropV,63.4,,depressed-class F1,percent
+Table6,CGMA,intact_w_video,0.988,,gate value,raw
+Table6,CGMA,intact_w_audio,0.991,,gate value,raw
+Table6,CGMA,dropV_w_video,0.076,,gate value,raw
+Table6,CGMA,dropV_w_audio,0.991,,gate value,raw
+Table6,CGMA,dropA_w_video,0.988,,gate value,raw
+Table6,CGMA,dropA_w_audio,0.068,,gate value,raw
+Table7,Naive fusion,intact,60.9,1.2,weighted F1,percent
+Table7,Naive fusion,drop_text,36.2,6.7,weighted F1,percent
+Table7,Naive fusion,drop_audio,57.8,0.3,weighted F1,percent
+Table7,Naive fusion,drop_visual,59.0,0.6,weighted F1,percent
+Table7,Naive fusion,text_f50,53.8,3.4,weighted F1,percent
+Table7,Naive fusion,text_f75,47.7,4.4,weighted F1,percent
+Table7,CGMA,intact,61.0,0.6,weighted F1,percent
+Table7,CGMA,drop_text,49.3,3.9,weighted F1,percent
+Table7,CGMA,drop_audio,57.5,0.7,weighted F1,percent
+Table7,CGMA,drop_visual,58.9,1.1,weighted F1,percent
+Table7,CGMA,text_f50,55.6,2.1,weighted F1,percent
+Table7,CGMA,text_f75,51.9,2.7,weighted F1,percent
