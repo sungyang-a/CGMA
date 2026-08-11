@@ -1,0 +1,46 @@
+method,condition,seed,f1
+Naive fusion,Intact,0,78.05
+Naive fusion,Intact,1,74.45
+Naive fusion,Intact,2,74.69
+Naive fusion,Intact,42,77.3
+Naive fusion,Intact,123,78.93
+Naive fusion,Drop-Video,0,32.13
+Naive fusion,Drop-Video,1,4.19
+Naive fusion,Drop-Video,2,65.81
+Naive fusion,Drop-Video,42,5.0
+Naive fusion,Drop-Video,123,42.62
+Naive fusion,Drop-Audio,0,71.07
+Naive fusion,Drop-Audio,1,71.96
+Naive fusion,Drop-Audio,2,72.85
+Naive fusion,Drop-Audio,42,73.43
+Naive fusion,Drop-Audio,123,73.02
+Naive + Aug,Intact,0,77.31
+Naive + Aug,Intact,1,76.09
+Naive + Aug,Intact,2,77.0
+Naive + Aug,Intact,42,77.61
+Naive + Aug,Intact,123,77.18
+Naive + Aug,Drop-Video,0,68.25
+Naive + Aug,Drop-Video,1,57.65
+Naive + Aug,Drop-Video,2,63.55
+Naive + Aug,Drop-Video,42,64.76
+Naive + Aug,Drop-Video,123,67.98
+Naive + Aug,Drop-Audio,0,73.81
+Naive + Aug,Drop-Audio,1,71.24
+Naive + Aug,Drop-Audio,2,72.73
+Naive + Aug,Drop-Audio,42,70.8
+Naive + Aug,Drop-Audio,123,40.34
+CGMA (ours),Intact,0,77.55
+CGMA (ours),Intact,1,75.91
+CGMA (ours),Intact,2,72.89
+CGMA (ours),Intact,42,72.21
+CGMA (ours),Intact,123,73.63
+CGMA (ours),Drop-Video,0,68.79
+CGMA (ours),Drop-Video,1,67.52
+CGMA (ours),Drop-Video,2,67.85
+CGMA (ours),Drop-Video,42,68.16
+CGMA (ours),Drop-Video,123,65.68
+CGMA (ours),Drop-Audio,0,72.4
+CGMA (ours),Drop-Audio,1,72.64
+CGMA (ours),Drop-Audio,2,73.68
+CGMA (ours),Drop-Audio,42,72.61
+CGMA (ours),Drop-Audio,123,72.98

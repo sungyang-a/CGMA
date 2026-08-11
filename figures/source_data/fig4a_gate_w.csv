@@ -1,0 +1,10 @@
+condition,seed,w_video,w_audio
+Intact,0,0.991,0.995
+Intact,1,0.992,0.95
+Intact,42,0.988,0.992
+Drop-Video,0,0.009,0.995
+Drop-Video,1,0.081,0.95
+Drop-Video,42,0.04,0.992
+Drop-Audio,0,0.991,0.008
+Drop-Audio,1,0.992,0.067
+Drop-Audio,42,0.988,0.03
