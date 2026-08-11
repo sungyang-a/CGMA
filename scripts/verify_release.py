@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """Static pre-release checks; this script never trains or evaluates a model."""
 
@@ -24,7 +25,7 @@ REQUIRED = [
 ]
 FORBIDDEN_SUFFIXES = {".pyc", ".pt", ".pth", ".ckpt", ".npz", ".log"}
 FORBIDDEN_NAMES = {".DS_Store", "__pycache__"}
-PRIVATE_MARKERS = ("/Users/sungyang", "/home/wangbin", "~/depression", "~/lmvd_work")
+PRIVATE_MARKERS = ("/Users/", "/home/", "~/depression", "~/lmvd_work")
 
 
 def main():
